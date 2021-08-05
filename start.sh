@@ -1,0 +1,1 @@
+docker run -d -it --rm --name springboot -v $(pwd):/opt/app maven:3.8.1-jdk-8 /bin/bash
